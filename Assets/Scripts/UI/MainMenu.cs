@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    //public static MainMenu manage;
+    public static MainMenu manage;
     public _levelList lv_list;
     public GameObject Levels;
 
@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
 
     private void Awake()
     {
-        //manage = this;
+        manage = this;
         //PlayerPrefs.SetInt("FirstStart", _startapp + 1);
     }
 
